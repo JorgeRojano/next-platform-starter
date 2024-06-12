@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
                 <div className="flex flex-col min-h-screen px-6 bg-grid-pattern sm:px-12">
                     <div className="flex flex-col w-full max-w-5xl mx-auto grow">
                         <Header />
-                        <iframe src="https://ui-rrt.timetradesystems.com/app/jod5048/workflows/jodwf/schedule/welcome?wfsid=9mshl6ns5v45oa0sae0e2cmp7u&fs=1" style="border:0px #ffffff none;" name="myiFrame" frameborder="0" marginheight="0px" marginwidth="0px" height="800px" width="100%" allowfullscreen></iframe>
+                        <iframe src="https://ui-rrt.timetradesystems.com/app/jod5048/workflows/jodwf/schedule/welcome?wfsid=9mshl6ns5v45oa0sae0e2cmp7u&fs=1" frameborder="0" marginheight="0px" marginwidth="0px" height="800px" width="100%" allowfullscreen></iframe>
                         <div className="grow">{children}</div>
                         <Footer />
                     </div>
